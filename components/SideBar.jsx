@@ -11,12 +11,9 @@ const SideBar = () => {
     <aside className="fixed sm:static h-screen flex z-10 ">
       <nav
         className={`h-full flex flex-col bg-white border-r shadow-sm overflow-hidden transition-all ${
-          expanded ? "max-w-48 " : "w-0"
+          expanded ? "max-sm:max-w-52 max-w-48 mid:max-w-52  " : "w-0"
         }`}
       >
-        {/* min-[320px]:text-center max-[600px]:bg-sky-300 */}
-        {/* "max-w-52 sm:[700px]:max-w-48 md:min-w-[100px] sm:mid-md:bg-green-800" */}
-        {/* md:max-xl:flex */}
         <div className="border-b flex p-3 py-4 mb-6">
           <img
             src="https://ui-avatars.com/api/?background=c7d2fe&color=3730a3&bold=true"
