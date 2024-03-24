@@ -18,7 +18,7 @@ export default function Home() {
   };
 
   return (
-    <div className="">
+    <div className=" overflow-hidden">
       {/* ======NavBar Starts==== */}
       <nav className=" shadow-md w-full fixed top-0 left-0 z-10 sm:hidden">
         <div className=" bg-white py-4 md:px-10 px-4">
@@ -48,7 +48,7 @@ export default function Home() {
         value={{ expanded, activeIndex, handleItemClick }}
       >
         <div className="flex">
-          <aside className="fixed h-screen flex z-10">
+          <aside className="fixed sm:static h-screen flex z-10  pr-4">
             <nav
               className={`h-full flex flex-col bg-white border-r shadow-sm overflow-hidden transition-all ${
                 expanded ? "max-w-52" : "w-0"
@@ -82,13 +82,13 @@ export default function Home() {
               className="my-auto h-16 rounded-sm w-4 bg-blue-600"
               onClick={() => setExpanded((prev) => !prev)}
             >
-              {!expanded ? <LuChevronFirst /> : <LuChevronLast />}
+              {expanded ? <LuChevronFirst /> : <LuChevronLast />}
             </button>
           </aside>
           {/* ======SideBar Ends==== */}
           {/* ======MainStarts==== */}
-          <main className="ml-4 mt-24 sm:mt-4 sm:static w-full gap-2 mr-4">
-            <div className="sm:grid sm:grid-cols-[3fr_280px] sm:grid-rows-1">
+          <main className="ml-4 mt-24 sm:mt-4 static w-full gap-2 mr-4 ">
+            <div className="sm:grid sm:grid-cols-[3fr_280px] sm:grid-rows-1 overflow-auto">
               {/* For screens above sm breakpoint */}
               <div className="hidden sm:block">
                 <DicussionForum />
