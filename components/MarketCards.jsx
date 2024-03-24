@@ -1,9 +1,9 @@
 const MarketCards = ({ data }) => {
   const { image, title, content } = data;
   return (
-    <div className="max-w-52 mx-auto rounded-lg border border-gray-200 bg-white shadow ">
+    <div className="flex flex-col  rounded-lg border border-gray-200 bg-white shadow ">
       <img
-        className="rounded-t-lg h-28 w-full object-cover"
+        className="rounded-t-lg h-full md:h-28 w-full object-cover"
         src={image}
         alt="Sunset in the mountains"
       />
@@ -16,5 +16,10 @@ const MarketCards = ({ data }) => {
     </div>
   );
 };
+{
+  /* <div class="aspect-w-16 aspect-h-9">
+    <img class="w-full" src='url' alt="" />
+</div> */
+}
 
 export default MarketCards;

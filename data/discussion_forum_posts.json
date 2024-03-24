@@ -28,5 +28,75 @@
     "comments": "1k",
     "views": "2k",
     "timestamp": "2024-03-24T10:59:00Z"
+  },
+  {
+    "id": 4,
+    "author": "Jane Smith",
+    "profile_picture": "https://res.cloudinary.com/djqjag779/image/upload/v1711278118/h6fhrz60dvqzanwfwicn.svg",
+    "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    "likes": 12,
+    "comments": "150",
+    "views": "1k",
+    "timestamp": "2024-03-24T09:00:00Z"
+  },
+  {
+    "id": 5,
+    "author": "David Brown",
+    "profile_picture": "https://res.cloudinary.com/djqjag779/image/upload/v1711278118/h6fhrz60dvqzanwfwicn.svg",
+    "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+    "likes": 15,
+    "comments": "1k",
+    "views": "6k",
+    "timestamp": "2024-03-23T14:00:00Z"
+  },
+  {
+    "id": 6,
+    "author": "Emily Wilson",
+    "profile_picture": "https://res.cloudinary.com/djqjag779/image/upload/v1711278118/h6fhrz60dvqzanwfwicn.svg",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "likes": 20,
+    "comments": "1k",
+    "views": "2k",
+    "timestamp": "2024-03-23T15:00:00Z"
+  },
+  {
+    "id": 7,
+    "author": "Michael Lee",
+    "profile_picture": "https://res.cloudinary.com/djqjag779/image/upload/v1711278118/h6fhrz60dvqzanwfwicn.svg",
+    "content": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "likes": 18,
+    "comments": "1k",
+    "views": "8k",
+    "timestamp": "2024-03-23T16:00:00Z"
+  },
+  {
+    "id": 8,
+    "author": "Sophia Garcia",
+    "profile_picture": "https://res.cloudinary.com/djqjag779/image/upload/v1711278118/h6fhrz60dvqzanwfwicn.svg",
+    "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    "likes": 25,
+    "comments": "5k",
+    "views": "9k",
+    "timestamp": "2024-03-23T17:00:00Z"
+  },
+  {
+    "id": 9,
+    "author": "William Martinez",
+    "profile_picture": "https://res.cloudinary.com/djqjag779/image/upload/v1711278118/h6fhrz60dvqzanwfwicn.svg",
+    "content": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+    "likes": 30,
+    "comments": "7",
+    "views": "15",
+    "timestamp": "2024-03-23T18:00:00Z"
+  },
+  {
+    "id": 10,
+    "author": "Olivia Thomas",
+    "profile_picture": "https://res.cloudinary.com/djqjag779/image/upload/v1711278118/h6fhrz60dvqzanwfwicn.svg",
+    "content": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+    "likes": 22,
+    "comments": "11k",
+    "views": "",
+    "timestamp": "2024-03-23T19:00:00Z"
   }
 ]

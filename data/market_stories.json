@@ -10,5 +10,23 @@
     "image": "https://res.cloudinary.com/djqjag779/image/upload/v1711279052/z9k3qpz5zlu6rlvfmlzp.avif",
     "title": "Stunning Sunset Over the Mountains",
     "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas."
+  },
+  {
+    "id": 3,
+    "image": "https://res.cloudinary.com/djqjag779/image/upload/v1711279052/z9k3qpz5zlu6rlvfmlzp.avif",
+    "title": "Sunset Reflections on the Lake",
+    "content": "Integer molestie nunc sit amet metus condimentum, nec volutpat nunc fermentum."
+  },
+  {
+    "id": 4,
+    "image": "https://res.cloudinary.com/djqjag779/image/upload/v1711279052/z9k3qpz5zlu6rlvfmlzp.avif",
+    "title": "Golden Hour in the Countryside",
+    "content": "Suspendisse id diam non eros rhoncus tristique."
+  },
+  {
+    "id": 5,
+    "image": "https://res.cloudinary.com/djqjag779/image/upload/v1711279052/z9k3qpz5zlu6rlvfmlzp.avif",
+    "title": "Sunset Silhouettes on the Horizon",
+    "content": "Donec sodales dolor ut dolor hendrerit, at aliquet felis aliquet."
   }
 ]

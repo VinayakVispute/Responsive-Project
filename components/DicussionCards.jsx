@@ -1,6 +1,7 @@
+import Image from "next/image";
+
 import { FaHeart, FaRegEye, FaCommentAlt } from "react-icons/fa";
 import { HiOutlineShare } from "react-icons/hi";
-import Image from "next/image";
 import TimeAgo from "react-timeago";
 
 const DicussionCards = ({ data }) => {
@@ -48,12 +49,12 @@ const DicussionCards = ({ data }) => {
         <div className="flex justify-center items-center gap-2">
           <FaCommentAlt className="transition duration-300 text-gray-500 hover:text-gray-300 cursor-pointer transform hover:scale-110" />
           {comments}
-          <span className="hidden md:block"> Comments</span>
+          <span className="hidden laptop:block "> Comments</span>
         </div>
 
         <div className="flex justify-center items-center gap-2">
           <HiOutlineShare className="transition duration-300 text-gray-800 hover:text-slate-500 cursor-pointer transform hover:scale-110" />
-          <span className="hidden md:block"> Share</span>
+          <span className="hidden laptop:block"> Share</span>
         </div>
       </div>
     </div>
