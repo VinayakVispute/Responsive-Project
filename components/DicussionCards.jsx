@@ -18,7 +18,7 @@ const DicussionCards = ({ data }) => {
     <div className="flex flex-col p-2 justify-center items-start bg-white border border-gray-200 rounded-lg shadow-md">
       <div className="flex m-2 gap-2 tracking-light justify-between pr-2 w-full">
         <div className="flex gap-2 items-center flex-wrap">
-          <Image src={profile_picture} height={30} width={30} />
+          <Image src={profile_picture} height={30} width={30} alt="author" />
           <p className="my-auto text-xs sm:text-sm text-nowrap text-black ">
             {author}
           </p>

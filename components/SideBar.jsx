@@ -20,7 +20,7 @@ const SideBar = () => {
         <div className="border-b flex p-3 py-4 mb-6">
           <img
             src="https://ui-avatars.com/api/?background=c7d2fe&color=3730a3&bold=true"
-            alt=""
+            alt="Autor Avtar"
             className="w-8 h-8 rounded-full"
           />
           <div

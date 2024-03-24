@@ -16,10 +16,5 @@ const MarketCards = ({ data }) => {
     </div>
   );
 };
-{
-  /* <div class="aspect-w-16 aspect-h-9">
-    <img class="w-full" src='url' alt="" />
-</div> */
-}
 
 export default MarketCards;

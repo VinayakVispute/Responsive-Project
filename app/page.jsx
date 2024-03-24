@@ -24,7 +24,7 @@ export default function Home() {
       >
         <NavBar />
         <SideBar />
-        <main className="ml-1 mx-24 sm:mt-4 static w-full gap-2 mr-4 h-screen overflow-y-scroll ">
+        <main className="ml-1 mx-24 mt-24 sm:mt-4 static w-full gap-2 mr-4 h-screen overflow-y-scroll ">
           <div className="sm:grid sm:grid-cols-[3fr_1fr] sm:grid-rows-1">
             {/* For screens above sm breakpoint */}
             <div className="hidden sm:block">
